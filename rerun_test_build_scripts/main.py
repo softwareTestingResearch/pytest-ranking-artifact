@@ -1,6 +1,6 @@
-import sys
-import os
 import json
+import os
+import sys
 
 script_dir = os.path.dirname(__file__)
 parent_dir = os.path.join(script_dir, "..", "")

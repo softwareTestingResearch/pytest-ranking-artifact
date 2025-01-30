@@ -1,7 +1,8 @@
-import json
-import requests
-import time
 import datetime
+import json
+import time
+
+import requests
 
 
 def is_corner_case(message):
@@ -13,7 +14,7 @@ def is_corner_case(message):
 class TokenPool:
     def __init__(self):
         self.tokens = [
-            # INSERT YOUR GITHUB TOKEN HERE.
+            # INSERT YOUR GITHUB TOKEN STRING HERE.
         ]
         assert len(self.tokens) > 0, "You need to provide GitHub API token."
         self.ptr = 0
@@ -28,7 +29,7 @@ class TokenPool:
                 "X-GitHub-Api-Version": "2022-11-28",
                 }
         return headers
-    
+
     def refresh_pool(self):
         print("refreshing token counter")
         self.counter = {}
@@ -43,7 +44,7 @@ class TokenPool:
         while self.counter[self.tokens[self.ptr]] == 0:
             self.ptr += 1
             self.ptr %= len(self.tokens)
-        print("reseting token pointer to", self.ptr)
+        print("resetting token pointer to", self.ptr)
 
     def get_next_token(self):
         if self.counter[self.tokens[self.ptr]] == 0:
@@ -56,7 +57,7 @@ class TokenPool:
         self.counter[token] -= 1
 
         return headers
-    
+
     def check_limits(self):
         for t in self.tokens:
             headers = self.generate_headers(t)

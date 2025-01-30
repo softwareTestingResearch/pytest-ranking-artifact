@@ -1,0 +1,11 @@
+{
+    "PROJECT_NAME": {
+        "name": "PROJECT_NAME",
+        "origin_slug": "ORIGIN_UPSTREAM_GITHUB_SLUG",
+        "fork_slug": "FORK_GITHUB_SLUG",
+        "fork_branch": "FORK_BRANCH",
+        "edited_ci_file_paths": [
+            "./EDITED_CI_FILE_EXCEPT_GITHUB_WORKFLOW_FILES"
+        ]
+    }
+}

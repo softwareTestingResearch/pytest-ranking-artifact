@@ -1,14 +1,14 @@
-import os
-import requests
-import logging
 import json
-from bs4 import BeautifulSoup
-import pandas as pd
-import re
+import logging
 import multiprocessing as mp
-from google.cloud import bigquery
+import os
+import re
 
 import const
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+from google.cloud import bigquery
 from utils import try_default
 
 GITHUB_URL_REGEX = r"https?://(www\.)?github\.com/[^/]+/[^/]+/?$"
@@ -21,7 +21,7 @@ def fetch_all_pypi_projects():
     logging.info("parsing pypi projects")
     proj_names = [a.text for a in BeautifulSoup(r, "html.parser").find_all("a")]
     # Remove first and last element since they are empty strings (bf4 parsing)
-    
+
     df = pd.DataFrame(proj_names, columns=["project"])
     df.to_csv(os.path.join(const.METADIR, "project_name.csv"), index=False)
 
@@ -98,20 +98,20 @@ def get_pypi_project_download():
 
     # You can also go to https://bigquery.cloud.google.com/table/bigquery-public-data:pypi.downloads
     query_job = client.query("""
-        SELECT 
+        SELECT
         file.project AS project,
         COUNT(*) AS num_downloads
-        FROM 
+        FROM
         `bigquery-public-data.pypi.file_downloads`
-        WHERE 
+        WHERE
         -- file.project = 'pytest'
         -- Only query the last 30 days of history
         DATE(timestamp)
             BETWEEN DATE('2023-01-01') AND DATE('2023-12-31')
-        GROUP BY 
+        GROUP BY
         file.project""")
-    
-    
+
+
     # results = query_job.result()  # Waits for job to complete.
     df = query_job.to_dataframe()
     # for row in results:
@@ -131,11 +131,11 @@ def get_project_metadata(limit=2500):
     if os.path.exists(outf_path):
         with open(outf_path, "r") as f:
             data = json.load(f)
-    
+
     projects = df["project"].values.tolist()
     projects = [x for x in projects if x not in data]
     print("number of to-be-collected projects", len(projects))
-    
+
     project_lists = [projects[x:x + 100] for x in range(0, len(projects), 100)]
     for idx, project_list in enumerate(project_lists):
         if len(data) > 2500:
@@ -178,7 +178,7 @@ def get_project_candidate_csv():
         requires_python_version = requires_python_version.replace(' ', '') if requires_python_version else None
         require_pytest = _check_require_pytest(project_data["require_dist"])
         rows.append([project, github_url, requires_python_version, require_pytest])
-    
+
     rows = pd.DataFrame(rows, columns=["project", "github_url", "requires_python_version", "require_pytest"])
     df = pd.merge(df, rows, how="inner", on=["project"])
 
@@ -207,7 +207,7 @@ def get_randomly_project_candidate_csv():
         require_pytest = _check_require_pytest(project_data["require_dist"])
         require_random = _check_require_randomly(project_data["require_dist"])
         rows.append([project, github_url, requires_python_version, require_pytest, require_random])
-    
+
     rows = pd.DataFrame(rows, columns=["project", "github_url", "requires_python_version", "require_pytest", "require_random"])
     df = pd.merge(df, rows, how="inner", on=["project"])
 

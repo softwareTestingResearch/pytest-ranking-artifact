@@ -1,12 +1,12 @@
-import os
-import requests
-import json
-import pandas as pd
-import gzip
-import time
 import datetime
+import gzip
+import json
+import os
+import time
 
 import const
+import pandas as pd
+import requests
 from token_pool import TokenPool
 
 TOKENPOOL = TokenPool()
@@ -60,7 +60,7 @@ def run(collect_random=False):
 
         os.makedirs(os.path.join(const.COMMITDIR, project, "commit_status"), exist_ok=True)
         commits = pd.read_csv(os.path.join(const.COMMITDIR, project, "commits.csv"))
-        
+
         for idx_commits, row_commits in commits.iterrows():
             sha = row_commits["sha"]
             get_commit_data(project, slug, sha)

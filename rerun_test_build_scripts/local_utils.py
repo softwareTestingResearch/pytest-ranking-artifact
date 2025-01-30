@@ -2,6 +2,7 @@ import datetime
 import os
 import re
 
+
 def pr_number_in_run_title(title, pr_number):
     pr_number_title = title.split(";")[0].replace("syncpr=", "")
     try:

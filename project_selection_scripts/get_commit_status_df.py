@@ -1,11 +1,12 @@
-import os
-import json
-import pandas as pd
-import multiprocessing as mp
-import gzip
 import datetime
+import gzip
+import json
+import multiprocessing as mp
+import os
 
 import const
+import pandas as pd
+
 
 def str_to_timestamp(s):
     # 2023-02-09T07:22:06Z
@@ -43,11 +44,11 @@ def get_commit_status_stats(project, sha):
             if "statuses" in data and len(data["statuses"]) > 0:
                 ctx_start, ctx_update, ctx_has_test_kw, ctx_has_ci_kw = collect_statuses_data_per_commit(data["statuses"])
     return [state, num_ctx, ctx_start, ctx_update, ctx_has_test_kw, ctx_has_ci_kw]
-                
+
 
 def get_commit_status_df_helper(idx, project):
     """return [sha, timestamp, date, status, first_job_time, last_job_time]
-    job means context in 
+    job means context in
     https://docs.github.com/en/rest/commits/statuses?apiVersion=2022-11-28#get-the-combined-status-for-a-specific-reference
     """
     print("processing", idx, project)
@@ -58,7 +59,7 @@ def get_commit_status_df_helper(idx, project):
         row = get_commit_status_stats(project, sha)
         stats.append([sha] + row)
     stats = pd.DataFrame(
-        stats, 
+        stats,
         columns=["sha", "state", "num_job", "ctx_start", "ctx_update", "ctx_has_test_kw", "ctx_has_ci_kw"])
     df = pd.merge(df, stats, how="inner", on=["sha"])
     df.insert(0, "project", project)

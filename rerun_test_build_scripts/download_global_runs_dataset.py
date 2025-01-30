@@ -1,14 +1,15 @@
 """Download a list of workflow runs (aka builds) as a globally-ordered list per project."""
 
-import os
-import requests
-import glob
-import sys
-import json
-import pandas as pd
-import time
 import datetime
+import glob
+import json
+import os
 import subprocess
+import sys
+import time
+
+import pandas as pd
+import requests
 
 script_dir = os.path.dirname(__file__)
 parent_dir = os.path.join(script_dir, "..", "")
@@ -17,8 +18,8 @@ sys.path.append(parent_dir)
 sys.path.append(local_dir)
 
 import local_const
-import token_pool
 import local_utils
+import token_pool
 
 TOKENPOOL = token_pool.TokenPool()
 TODAY_STR = datetime.datetime.today().strftime('%Y-%m-%d')
@@ -85,7 +86,7 @@ def download_global_runs(slug: str, start_date: str=DATASET_START_DATE, end_date
     # Create folder to store downloaded metadata of workflow runs.
     save_folder = os.path.join(local_const.DOWNLOAD_REPO_DIR, project_name, DOWNLOAD_GLOBAL_RUNS_FOLDER)
     os.makedirs(save_folder, exist_ok=True)
-    
+
     # Download list of closed PRs page by page (each page has 1000 PRs).
     dates = get_days_between_dates(start_date, end_date)
     for date in dates:
@@ -236,7 +237,7 @@ def build_workflow_run_dataset(slug: str) -> None:
             is_test_ci_file_changed,
         ]
         df.append(row)
-    return df   
+    return df
 
 
 def runner_build_workflow_run_dataset() -> None:
@@ -328,7 +329,7 @@ def runner_build_global_test_run_dataset():
 
 def runner_build_global_test_run_lite_dataset():
     """Filtering and get a lite global test run dataset from the test_run_metadata.csv.
-    
+
     Get all failed builds, for each failed build, get the first non-overlapping success build before it.
      - some failed builds have the same non-overlapping success build before them.
     """

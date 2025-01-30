@@ -1,16 +1,16 @@
+import collections
+import datetime
+import glob
+import json
 import os
 import re
-import glob
 import sys
-import json
-from typing import List, Tuple
 import time
 import zipfile
-import datetime
-import pandas as pd
-import collections
+from typing import List, Tuple
+
 import numpy as np
-import collections
+import pandas as pd
 
 script_dir = os.path.dirname(__file__)
 parent_dir = os.path.join(script_dir, "..", "")
@@ -50,7 +50,7 @@ def get_failure_set_from_reruns():
     flaky = get_failure_labels("flaky_test_failures.csv")
     real = get_failure_labels("real_test_failures.csv")
 
-    
+
     failure_statistics = []
     for project in df["project"].drop_duplicates().values.tolist():
         num_flaky_tests = len(flaky[project])
@@ -82,7 +82,7 @@ def compute_rtp_metrics_helper(df: pd.DataFrame):
     ...
     """
     ffmaps = [
-        "sameBug", 
+        "sameBug",
         "uniqueBug"
     ]
     tabname = {
@@ -202,7 +202,7 @@ def get_dataset_statistics():
             default_duration = run_df[run_df["order"] == local_const.WF_DEFUALT]["duration"].values.tolist()[0]
             mean_duration_default.append(default_duration)
             non_default_durations = run_df[run_df["order"] != local_const.WF_DEFUALT]["duration"].values.tolist()
-            mean_duration_rel_diff_prec.append(np.mean([100 * abs(nd - default_duration) / default_duration for nd in non_default_durations]))
+            mean_duration_rel_diff_prec.append(np.mean([100 * abs(nondefault - default_duration) / default_duration for nondefault in non_default_durations]))
 
         data.append(
             [

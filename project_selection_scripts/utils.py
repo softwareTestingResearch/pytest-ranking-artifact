@@ -1,8 +1,7 @@
 """ Provides helper functions """
-import sys
 import logging
-from typing import Callable, Type, TypeVar, Any, Union
-
+import sys
+from typing import Any, Callable, Type, TypeVar, Union
 
 T = TypeVar("T")
 U = TypeVar("U")
@@ -41,4 +40,3 @@ def try_default(
     finally:
         if finally_:
             finally_()
-

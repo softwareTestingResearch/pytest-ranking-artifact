@@ -1,5 +1,6 @@
 import os
 import sys
+
 import numpy as np
 
 script_dir = os.path.dirname(__file__)
@@ -52,7 +53,7 @@ class FaultDetectionMetric:
         self.num_fail_tests = num_fail_tests
         self.num_bugs = self.count_num_bugs(bug_mapping)
         self.TFis = self.get_TFis(bug_mapping)
-    
+
     def count_num_bugs(self, bug_mapping):
         if bug_mapping == "uniqueBug":
             num_bugs = self.num_fail_tests
@@ -65,14 +66,14 @@ class FaultDetectionMetric:
         for pos, test in enumerate(self.tests):
             if test.outcome == "failed":
                 TFis = add_TF(TFis, pos + 1, bug_mapping)
-        TFis = convert_TFis_to_list(TFis)    
+        TFis = convert_TFis_to_list(TFis)
         return TFis
 
     def APFD(self):
         # for test suite that dont have failed tests, return nan
         if self.num_fail_tests <= 0:
             return np.nan
-        
+
         ret = sum(self.TFis) / (self.num_bugs * self.num_tests)
         ret = 1 - ret + (1 / (2 * self.num_tests))
         return ret
@@ -105,7 +106,7 @@ def compute_metrics(tests, filtered_failed_tests=set()):
             num_fail_tests += 1
     for bug_mapping in bug_mappings:
         fault_metric = FaultDetectionMetric(
-            tests=tests_for_fail, bug_mapping=bug_mapping, 
+            tests=tests_for_fail, bug_mapping=bug_mapping,
             ts_duration=ts_duration, num_fail_tests=num_fail_tests)
         values[f"APFDc_{bug_mapping}"] = fault_metric.APFDc()
     return values

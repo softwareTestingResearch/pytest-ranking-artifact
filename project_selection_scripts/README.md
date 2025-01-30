@@ -27,6 +27,3 @@
 `get_commit_status_df`: get commit statistics, e.g., number of commits, for project candidates.
 
 `get_commit_status_via_github`: get status of commits for project candidates.
-
-
-

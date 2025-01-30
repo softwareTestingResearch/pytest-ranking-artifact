@@ -1,17 +1,18 @@
-import os
-import requests
+import datetime
 import glob
-import sys
 import json
-import subprocess
-import zipfile
+import os
 import shutil
+import subprocess
+import sys
+import time
+import zipfile
 from collections import defaultdict
 from enum import Enum
 from typing import List, Tuple
-import time
-import datetime
+
 import pandas as pd
+import requests
 
 script_dir = os.path.dirname(__file__)
 parent_dir = os.path.join(script_dir, "..", "")
@@ -20,8 +21,8 @@ sys.path.append(parent_dir)
 sys.path.append(local_dir)
 
 import local_const
-import token_pool
 import local_utils
+import token_pool
 
 TOKENPOOL = token_pool.TokenPool()
 
@@ -34,12 +35,12 @@ WORKFLOW_SEARCH_URL = "https://api.github.com/repos/{slug}/actions/runs?&per_pag
 
 class ForkProject:
     def __init__(
-            self, 
-            name: str, 
+            self,
+            name: str,
             origin_slug: str,
             fork_slug: str,
             fork_branch: str,
-            edited_ci_file_paths: List[str], 
+            edited_ci_file_paths: List[str],
             wait_time_between_prs: int
             ) -> None:
         """
@@ -99,7 +100,7 @@ class ForkProject:
             file_dir = os.path.dirname(file)
             os.makedirs(os.path.join(self.ci_file_backup_dir, file_dir), exist_ok=True)
             os.system(f"cp {file} {self.ci_file_backup_dir}/{file}")
-        
+
         # Checkout back to the default branch.
         os.system(f"git checkout {self.fork_branch}")
 
@@ -108,8 +109,8 @@ class ForkProject:
 
     def rerun(self, num_builds_to_run: int=100) -> None:
         """Rerun builds for a project.
-        
-        num_builds_to_run: number of builds to run. 
+
+        num_builds_to_run: number of builds to run.
         """
         # Load global test run dataset.
         df = pd.read_csv(os.path.join(local_const.GLOBAL_RUN_DATASET_DIR, "lite_test_run_metadata.csv"))
@@ -200,7 +201,7 @@ class ForkProject:
     def reset_codebase_to_origin_head(self) -> None:
         current_dir = os.getcwd()
         os.chdir(self.codebase_dir)
-        # Clean up any uncommited changes.
+        # Clean up any uncommitted changes.
         print("[global-run] Clean local changes in fork")
         os.system("git reset --hard")
         os.system("git clean -fd")
@@ -314,10 +315,10 @@ def run_project(project_info, actions: list):
 
     if ACTION_SETUP in actions:
         proj.setup()
-    
+
     if ACTION_RERUN in actions:
         proj.rerun()
-    
+
     if ACTION_DOWNLOAD in actions:
         proj.download_rerun_results()
 

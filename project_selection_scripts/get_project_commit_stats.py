@@ -1,12 +1,12 @@
-import os
-import requests
-import json
-import pandas as pd
 import glob
+import json
 import multiprocessing as mp
+import os
 import subprocess
 
 import const
+import pandas as pd
+import requests
 from token_pool import TokenPool
 
 TOKENPOOL = TokenPool()
@@ -43,7 +43,7 @@ def get_slug_from_github_url(github_url):
 
 def get_project_head_status_data(collect_random=False):
     """Check the commit status of a grandparent of the project HEAD,
-    if the status is pending, it is most likely that the project 
+    if the status is pending, it is most likely that the project
     does not have commit status enabled, we can thus filter them out
     """
     prefix = "" if not collect_random else "random_"
@@ -56,7 +56,7 @@ def get_project_head_status_data(collect_random=False):
         commit_state, job_total_count = get_project_head_status(slug)
         print("processing", idx, project, github_url, slug, commit_state, job_total_count)
         ret.append([project, commit_state, job_total_count])
-    
+
     ret = pd.DataFrame(ret, columns=["project", "head_grandparent_state", "head_grandparent_job_count"])
     ret.to_csv(os.path.join(const.METADIR, prefix + "project_head_status.csv"))
 
@@ -81,7 +81,7 @@ def get_project_commit_hist_helper(project, github_url, overwrite=True):
         output = ""
         try:
             output = subprocess.check_output(
-                "git log --since=\"2024-01-01\" --pretty=format:\"%H,%at,%as\"", 
+                "git log --since=\"2024-01-01\" --pretty=format:\"%H,%at,%as\"",
                 shell=True)
             output = output.decode("utf-8", errors="ignore")
         except Exception as e:
@@ -119,12 +119,12 @@ def get_project_commit_hist(collect_random=False):
     df = df[["project", "github_url"]].values.tolist()
     pool = mp.Pool(mp.cpu_count())
     pool.starmap(get_project_commit_hist_helper, df)
-    
-    
+
+
 def get_commit_stats_df(collect_random=False):
     """Compute number of commits collected per project
     Create a dataset file with columns:
-      project, num_downloads, github_url, requires_python_version, num_commits 
+      project, num_downloads, github_url, requires_python_version, num_commits
     """
     prefix = "" if not collect_random else "random_"
     files = glob.glob(os.path.join(const.COMMITDIR, "*/commits.csv"))
@@ -150,4 +150,3 @@ if __name__ == "__main__":
     get_project_commit_hist(collect_random=False)
     get_commit_stats_df(collect_random=False)
     pass
-

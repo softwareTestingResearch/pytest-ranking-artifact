@@ -1,12 +1,13 @@
+import datetime
+import glob
+import json
 import os
 import re
-import glob
 import sys
-import json
-from typing import List, Tuple
 import time
 import zipfile
-import datetime
+from typing import List, Tuple
+
 import pandas as pd
 
 script_dir = os.path.dirname(__file__)
@@ -17,7 +18,6 @@ sys.path.append(local_dir)
 
 import local_const
 import local_utils
-
 
 PARSED_RERUN_DIR = "parsed_rerun_results"
 
