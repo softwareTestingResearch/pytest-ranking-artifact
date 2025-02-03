@@ -41,11 +41,9 @@ class ForkProject:
             fork_slug: str,
             fork_branch: str,
             edited_ci_file_paths: List[str],
-            wait_time_between_prs: int
             ) -> None:
         """
         edited_ci_file_paths: workflow files we edited
-        wait_time_between_prs: minutes waited between pushing two PRs
         """
         self.name = name
         self.origin_slug = origin_slug
@@ -54,7 +52,6 @@ class ForkProject:
         self.fork_clone_url = local_const.GITHUB_SSH_URL.format(slug=fork_slug)
         self.fork_branch = fork_branch
         self.ci_file_paths = edited_ci_file_paths
-        self.wait_time_between_prs = wait_time_between_prs
         self.init_datafolders()
 
     def init_datafolders(self) -> None:
@@ -310,8 +307,7 @@ def run_project(project_info, actions: list):
         origin_slug=project_info["origin_slug"],
         fork_slug=project_info["fork_slug"],
         fork_branch=project_info["fork_branch"],
-        edited_ci_file_paths=project_info["edited_ci_file_paths"],
-        wait_time_between_prs=project_info.get("wait_time_minute", 1))
+        edited_ci_file_paths=project_info["edited_ci_file_paths"])
 
     if ACTION_SETUP in actions:
         proj.setup()
@@ -342,8 +338,7 @@ def rerun_single_build(project, run_id):
         origin_slug=project_info["origin_slug"],
         fork_slug=project_info["fork_slug"],
         fork_branch=project_info["fork_branch"],
-        edited_ci_file_paths=project_info["edited_ci_file_paths"],
-        wait_time_between_prs=project_info.get("wait_time_minute", 1))
+        edited_ci_file_paths=project_info["edited_ci_file_paths"])
     df = pd.read_csv(os.path.join(local_const.GLOBAL_RUN_DATASET_DIR, "lite_test_run_metadata.csv"))
     # Rerun test run builds for the project.
     builds = df[df["project"] == project].to_dict("records")

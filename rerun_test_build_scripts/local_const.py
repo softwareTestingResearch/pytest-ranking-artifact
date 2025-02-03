@@ -22,7 +22,6 @@ ARTIFACT_NAME = "pytest-ranking upload test report json"
 # https://docs.github.com/en/rest/actions/workflow-runs?apiVersion=2022-11-28#list-workflow-runs-for-a-repository
 INCOMPLETE_STATUS = ["in_progress", "queued", "requested", "waiting", "pending"]
 
-WORKFLOW_TRIGGER_TAG = "prsync.{pr_number}"
 
 EDIT_CI_FILE_BRANCH = "edited-ci-files"
 

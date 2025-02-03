@@ -36,7 +36,7 @@ DOWNLOAD_GLOBAL_RUNS_FOLDER = "download_global_runs"
 DOWNLOAD_COMMITS_FOLDER = "download_commits"
 DOWNLOAD_COMMIT_PATCHES_FOLDER = "download_commit_patches"
 
-# Constants for downloading closed PRs
+# Constants for downloading historical builds
 DATASET_START_DATE = "2024-01-01"
 DATASET_END_DATE = "2024-12-01"
 MAX_PAGE_LIMIT = 10000
@@ -87,7 +87,7 @@ def download_global_runs(slug: str, start_date: str=DATASET_START_DATE, end_date
     save_folder = os.path.join(local_const.DOWNLOAD_REPO_DIR, project_name, DOWNLOAD_GLOBAL_RUNS_FOLDER)
     os.makedirs(save_folder, exist_ok=True)
 
-    # Download list of closed PRs page by page (each page has 1000 PRs).
+    # Download list of builds page by page (each page has 1000 builds).
     dates = get_days_between_dates(start_date, end_date)
     for date in dates:
         for page_number in range(1, MAX_PAGE_LIMIT):
@@ -116,7 +116,7 @@ def download_global_run_commits(slug: str) -> None:
     print(f"Running {project_name}, number of run files {len(run_files)}, number of workflow runs: {len(shas)}, number of unique run shas: {len(set(shas))}")
     shas = set(shas)
 
-    # Download list of commits for PRs within date range.
+    # Download list of builds within date range.
     save_folder = os.path.join(local_const.DOWNLOAD_REPO_DIR, project_name, DOWNLOAD_COMMITS_FOLDER)
     os.makedirs(save_folder, exist_ok=True)
     for sha in shas:
@@ -145,7 +145,7 @@ def download_global_run_commit_patches(slug: str) -> None:
     print(f"Running {project_name}, number of run files {len(run_files)}, number of workflow runs: {len(shas)}, number of unique run shas: {len(set(shas))}")
     shas = set(shas)
 
-    # Download list of commits for PRs within date range.
+    # Download list of builds within date range.
     save_folder = os.path.join(local_const.DOWNLOAD_REPO_DIR, project_name, DOWNLOAD_COMMIT_PATCHES_FOLDER)
     os.makedirs(save_folder, exist_ok=True)
     for sha in shas:
