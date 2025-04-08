@@ -218,14 +218,6 @@ class ForkProject:
         os.system("git reset --hard")
         os.system("git clean -fd")
         os.system(f"git checkout {self.fork_branch}")
-
-        # # Reset the fork to origin.
-        # print("[global-run] Reset fork to origin")
-        # os.system(f"git remote add upstream {self.origin_clone_url}")
-        # os.system("git fetch upstream")
-        # os.system(f"git checkout {self.fork_branch}")
-        # os.system(f"git reset --hard upstream/{self.fork_branch}")
-        # # os.system(f"git push --force origin {self.fork_branch}")
         os.chdir(current_dir)
 
     def has_rerun_results(self, run_id: int) -> bool:

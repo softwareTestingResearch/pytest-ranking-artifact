@@ -13,7 +13,6 @@ sys.path.append(parent_dir)
 sys.path.append(local_dir)
 
 import local_const
-import local_utils
 
 ARGS = sys.argv
 RAW_RERUN_DIR = ARGS[-2]

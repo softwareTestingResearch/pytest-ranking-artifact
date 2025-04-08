@@ -321,8 +321,8 @@ def get_plugin_runtime_overhead_statistics():
     merged.to_csv(os.path.join(TEST_RESULT_DIR, 'overhead_statistics.csv'), index=False)
 
 if __name__ == "__main__":
-    get_dataset_statistics()
+    # get_dataset_statistics()
     compute_rtp_metrics()
-    get_failure_stats_from_reruns()
+    # get_failure_stats_from_reruns()
     # get_plugin_runtime_overhead()
-    get_plugin_runtime_overhead_statistics()
+    # get_plugin_runtime_overhead_statistics()
