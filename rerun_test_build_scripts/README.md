@@ -38,7 +38,7 @@ Option `download` downloads the build log and test report artifact of the comple
 `rerun_random`: rerun test-run builds from `lite_test_run_metadata.csv` for a specified project with random order.
 It has the same CLI options as `rerun_global_runs`, and runs random order 10 times per build, each time using the new run ID as random seed.
 For save compute budget, it only runs builds that have regression failures (as we do not need to construct the right RTP data cache before running the failed builds).
-This script requires `eval_results/parsed_rerun_results/regression_failed_runs.json` as input, which lists the build IDs that contains regression failures (see [./eval_results/README.md](./eval_results/README.md)).
+This script requires `eval_results/parsed_rerun_results/regression_failed_runs.json` as input, which lists the build IDs that contains regression failures (see [./eval_results](./eval_results/)).
 
 
 `metrics`: compute APFD(c) metric values with one-to-one and many-to-one failure-to-fault mappings.
@@ -59,4 +59,4 @@ The raw data (1GB of CI log, JSON test report) of our reruns on 10 random order 
 
 After downloading and decompressing the raw data into this directory, you may use the scripts from [./eval_results](./eval_results/) to further parse and analyze them.
 
-If you wish to download the processed data instead (500MB in total), you may refer to [./eval_results/README.md](./eval_results/README.md).
+If you wish to download the processed data instead (500MB in total), you may refer to [./eval_results/](./eval_results/).
