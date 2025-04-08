@@ -991,7 +991,6 @@ tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[0.5
 tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[1.0-train_datasets0-val_datasets0],pytorch-lightning,['7647716898'],1
 tests/tests_pytorch/checkpointing/test_model_checkpoint.py::test_checkpointing_with_nan_as_first[max],pytorch-lightning,['7647716898'],1
 tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[0.5-train_datasets0-val_datasets0],pytorch-lightning,['7647716898'],1
-tests/_core/test_plot.py::TestInit::test_positional_interchangeable_dataframe,seaborn,"['11758212698', '11758226041']",2
 tests/test_export.py::ExportTest::test_export,trimesh,"['7430287465', '7720545981']",2
 tests/test_gltf.py::GLTFTest::test_vertex_attrib,trimesh,['7430287465'],1
 tests/test_gltf.py::GLTFTest::test_equal_by_default,trimesh,['7430287465'],1
