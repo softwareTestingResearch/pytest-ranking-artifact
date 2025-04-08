@@ -2,17 +2,12 @@ import datetime
 import glob
 import json
 import os
-import shutil
-import subprocess
 import sys
 import time
 import zipfile
-from collections import defaultdict
-from enum import Enum
-from typing import List, Tuple
+from typing import List
 
 import pandas as pd
-import requests
 
 script_dir = os.path.dirname(__file__)
 parent_dir = os.path.join(script_dir, "..", "")
@@ -30,6 +25,7 @@ ACTION_RERUN = "rerun"
 ACTION_SETUP = "setup"
 ACTION_DOWNLOAD = "download"
 
+END_DATE_STR = (datetime.datetime.today() + datetime.timedelta(days=2)).strftime('%Y-%m-%d')
 WORKFLOW_SEARCH_URL = "https://api.github.com/repos/{slug}/actions/runs?&per_page=100&page={page_number}"
 
 
@@ -104,7 +100,7 @@ class ForkProject:
         # Back to script dir and finish.
         os.chdir(current_dir)
 
-    def rerun(self, num_builds_to_run: int=100) -> None:
+    def rerun(self, num_builds_to_run: int=50) -> None:
         """Rerun builds for a project.
 
         num_builds_to_run: number of builds to run.
@@ -144,7 +140,7 @@ class ForkProject:
             # Query update info again.
             info = token_pool.query_info(TOKENPOOL, query)
 
-    def submit_build_to_rerun(self, build: pd.Series) -> None:
+    def submit_build_to_rerun(self, build: dict) -> None:
         """Rerun a build."""
         print("\n[global-run] build info:", build)
         project = build["project"]
@@ -183,13 +179,32 @@ class ForkProject:
         os.system(f"cp -r {self.ci_file_backup_dir}/workflows/. {self.codebase_dir}/.github/workflows/")
         for file in self.ci_file_paths:
             # print(f"cp {self.ci_file_backup_dir}/{file} {self.codebase_dir}/{file}")
+            os.makedirs(f"{self.codebase_dir}/{os.path.dirname(file)}", exist_ok=True)
             os.system(f"cp {self.ci_file_backup_dir}/{file} {self.codebase_dir}/{file}")
+
+        # Add uv.toml for the uv library, allowing us to install deps with versions
+        # released prior to a configured date.
+        # https://docs.astral.sh/uv/reference/settings/#exclude-newer
+        run_started_at = build["run_started_at"]
+        uv_file_lines = [
+            f"exclude-newer = \"{run_started_at}\"",
+            "[pip]",
+            "system = true",
+        ]
+        with open(os.path.join(self.codebase_dir, "uv.toml"), "w") as f:
+            f.write("\n".join(uv_file_lines) + "\n")
+
+        # Add run_id to repo that can be fetched as seed for random RTP order.
+        with open(os.path.join(self.codebase_dir, "pytest_ranking_seed.txt"), "w") as f:
+            f.write(str(run_id))
 
         # Push this version of the code as commit.
         print("\n[global-run] Push code")
         current_dir = os.getcwd()
         os.chdir(self.codebase_dir)
         message = f"run_id={run_id}, outcome={run_conclusion}, bh={head_branch}, sha={head_sha}"
+        # Run id from commit message will be extracted to use as Random RTP order seed, via:
+        # git log -1 --pretty=%B | tr -d '\n' | awk -F'run_id=' '{print $2}' | awk -F',' '{print $1}'
         os.system("git add .")
         os.system(f"git commit -m '{message}'")
         os.system(f"git push origin HEAD:{self.fork_branch} --force")
@@ -216,39 +231,58 @@ class ForkProject:
     def has_rerun_results(self, run_id: int) -> bool:
         artifact_files = [
             os.path.join(
-                self.workflowrun_dir, str(int(run_id)), local_const.RUN_ARTIFACT_FILE.format(run_name=order)
+                self.workflowrun_dir, str(int(run_id)), local_const.RUN_META_FILE.format(run_name=order)
             )
             for order in local_const.CI_WORKFLOW_NAMES
         ]
         return all(os.path.exists(file) for file in artifact_files)
 
-    def download_rerun_results(self) -> None:
+    def download_rerun_results(self, num_builds_to_download: int=50, start_date: str="2025-02-28", end_date: str=END_DATE_STR) -> None:
         """Download all completed reruns."""
+        # Get a list of builds that should be downloaded.
+        df = pd.read_csv(os.path.join(local_const.GLOBAL_RUN_DATASET_DIR, "lite_test_run_metadata.csv"))
+        builds = df[df["project"] == self.name].to_dict("records")
+        reran_build_ids = set()
+        for i, build in enumerate(builds):
+            if i == 0:
+                reran_build_ids.add(build["run_id"])
+                continue
+            is_overlap = check_overlap(builds[i-1], build)
+            if i >= num_builds_to_download and not is_overlap:
+                break
+            reran_build_ids.add(build["run_id"])
+
         # Get a list of workflow reruns.
         print("[global-run] Get workflow rerun list")
         rerun_info = []
         for page_number in range(1, 1000):
             query = WORKFLOW_SEARCH_URL.format(slug=self.fork_slug, page_number=page_number)
+            query = query + f"&created={start_date}..{end_date}"
+            print(f"querying {query}")
             info = token_pool.query_info(TOKENPOOL, query)
             if len(info) < 1 or len(info["workflow_runs"]) < 1:
                 break
             rerun_info += info["workflow_runs"]
         print(f"[global-run] Workflow rerun list length: {len(rerun_info)}")
+        # Keep only RTP reruns, sort reruns from most recent from the oldest.
         rerun_info = [run for run in rerun_info if "run_id" in run["display_title"] and run["name"] in local_const.CI_WORKFLOW_NAMES]
-        # Sort reruns from most recent from the least.
         rerun_info.sort(key=lambda x: local_utils.timestring_to_timestamp(x["created_at"]).timestamp(), reverse=True)
-        print(f"[global-run] Valid workflow rerun list length: {len(rerun_info)}")
+        print(
+            f"[global-run] Valid workflow rerun list length: {len(rerun_info)}, "
+            + f"latest {rerun_info[0]['created_at']}, oldest: {rerun_info[-1]['created_at']}"
+        )
         download_ordered_runs = set()
         for info in rerun_info:
             run_name = info["name"]
             origin_run_id = int(info["display_title"].split(", ")[0].replace("run_id=", ""))
             rerun_id = info["id"]
             rerun_conclusion = info["conclusion"]
-            # Do not download for cancelled runs.
+            # Skip non reran builds.
+            if origin_run_id not in reran_build_ids:
+                continue
+            # Skip cancelled runs.
             if rerun_conclusion not in ["success", "failure"]:
                 continue
-            save_folder = os.path.join(self.workflowrun_dir, str(origin_run_id))
-            os.makedirs(save_folder, exist_ok=True)
             # Skip if downloaded.
             if self.has_rerun_results(origin_run_id):
                 continue
@@ -257,7 +291,10 @@ class ForkProject:
             if ordered_run_id in download_ordered_runs:
                 continue
 
-            print(f"[global-run] Download {origin_run_id} {run_name}, rerun_id: {rerun_id}")
+            save_folder = os.path.join(self.workflowrun_dir, str(origin_run_id))
+            os.makedirs(save_folder, exist_ok=True)
+
+            print(f"[global-run] rerun_id: {rerun_id}, original: {origin_run_id}, {run_name}, {len(download_ordered_runs)}, {info['created_at']}")
             download_ordered_runs.add(ordered_run_id)
             # Download workflow run metadata.
             run_meta_file = os.path.join(save_folder, local_const.RUN_META_FILE.format(run_name=run_name))
@@ -340,6 +377,8 @@ def rerun_single_build(project, run_id):
         fork_branch=project_info["fork_branch"],
         edited_ci_file_paths=project_info["edited_ci_file_paths"])
     df = pd.read_csv(os.path.join(local_const.GLOBAL_RUN_DATASET_DIR, "lite_test_run_metadata.csv"))
+    # Setup
+    proj.setup()
     # Rerun test run builds for the project.
     builds = df[df["project"] == project].to_dict("records")
     for build in builds:
