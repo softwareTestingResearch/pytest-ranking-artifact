@@ -1,1 +1,4 @@
+.DS_Store
 __pycache__
+parsed_rerun_results*/
+modified_ci_files_for_rerun/
