@@ -1,0 +1,1037 @@
+Test,Project,ID,Commit_Count
+aeon/datatypes/tests/test_vectorize.py::test_reconstruct_identical[Hierarchical-dask_hierarchical-fixture:0-Series-True],aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/datatypes/tests/test_vectorize.py::test_reconstruct_identical[Hierarchical-dask_hierarchical-fixture:1-Series-False],aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/utils/tests/test_mlflow_aeon_model_export.py::test_log_model_calls_register_model,aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/datatypes/tests/test_vectorize.py::test_reconstruct_identical[Hierarchical-dask_hierarchical-fixture:0-Series-False],aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/utils/tests/test_datetime.py::test_set_freq_hier,aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/transformations/tests/test_subset.py::test_columnselect_indextreatment[keep],aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/datatypes/tests/test_vectorize.py::test_reconstruct_identical[Hierarchical-dask_hierarchical-fixture:1-Series-True],aeon,"['7374074749', '7442102200', '7523225509']",3
+aeon/datasets/tests/test_data_loaders.py::test_load_regression,aeon,['7475213702'],1
+aeon/benchmarking/tests/test_results_loaders.py::test_get_estimator_results,aeon,"['7490106792', '7493974047']",2
+aeon/visualisation/tests/test_critical_difference.py::test_wilcoxon_test,aeon,['7490106792'],1
+aeon/visualisation/tests/test_critical_difference.py::test_plot_critical_difference,aeon,['7490106792'],1
+aeon/benchmarking/tests/test_results_loaders.py::test_get_estimator_results_as_array,aeon,['7490106792'],1
+aeon/visualisation/tests/test_critical_difference.py::test__check_friedman,aeon,['7490106792'],1
+aeon/visualisation/tests/test_results_plotting.py::test_plot_boxplot_median,aeon,['7490106792'],1
+aeon/visualisation/tests/test_results_plotting.py::test_plot_scatter,aeon,['7490106792'],1
+aeon/visualisation/results_plotting.py::aeon.visualisation.results_plotting.plot_scatter,aeon,['7490106792'],1
+aeon/visualisation/tests/test_critical_difference.py::test_nemenyi_test,aeon,['7490106792'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/benchmarking/tests/test_forecasting.py::test_forecastingbenchmark,aeon,"['7494912669', '7495117058', '7503528030', '7506884992', '7511857043', '7513622027', '7514528478']",7
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/tests/test_softdeps.py::test_est_construct_without_modulenotfound[ForecastingGridSearchCV],aeon,"['7494912669', '7495117058', '7503528030', '7506884992']",4
+aeon/transformations/tests/test_optionalpassthrough.py::test_optionalpassthrough,aeon,"['7494912669', '7514148037', '7514531555']",3
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-update-ExpandingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/tests/test_softdeps.py::test_est_get_params_without_modulenotfound[ForecastingGridSearchCV],aeon,"['7494912669', '7495117058', '7503528030', '7506884992']",4
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-update-SlidingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-update-ExpandingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/_tune.py::aeon.forecasting.model_selection._tune.ForecastingGridSearchCV,aeon,"['7494912669', '7514148037', '7514531555']",3
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-refit-ExpandingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-refit-SlidingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-update-ExpandingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-update-SlidingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-update-SlidingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/transformations/tests/test_multiplexer.py::test_multiplex_transformer_in_grid,aeon,"['7494912669', '7495117058', '7503528030', '7506884992', '7511857043', '7513622027']",6
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-refit-ExpandingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/tests/test_softdeps.py::test_est_fit_without_modulenotfound[ForecastingRandomizedSearchCV],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-1000-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-update-ExpandingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv0-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-1000-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/transformations/compose.py::aeon.transformations.compose.MultiplexTransformer,aeon,"['7494912669', '7514148037', '7514531555']",3
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv2-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-raise-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_evaluation/_functions.py::aeon.forecasting.model_evaluation._functions.evaluate,aeon,"['7494912669', '7495117058', '7503528030', '7506884992', '7511857043']",5
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/tests/test_softdeps.py::test_est_fit_without_modulenotfound[ForecastingGridSearchCV],aeon,"['7494912669', '7495117058', '7503528030', '7506884992']",4
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-update-SlidingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-1000-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv2-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-raise-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-raise-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-refit-SlidingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-refit-ExpandingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv0-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-nan-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-refit-SlidingWindowSplitter-ConformalIntervals],aeon,"['7494912669', '7495117058']",2
+aeon/transformations/tests/test_differencer.py::test_differencer_cutoff,aeon,"['7494912669', '7514148037', '7514531555']",3
+aeon/forecasting/compose/tests/test_multiplex.py::test_multiplex_with_grid_search,aeon,"['7494912669', '7495117058', '7503528030', '7506884992', '7511857043']",5
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-nan-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/compose/tests/test_pipeline.py::test_pipeline_with_dimension_changing_transformer,aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv2-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv1-nan-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[0.5-refit-ExpandingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[4-cv2-1000-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv0-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv1-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv0-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv0-raise-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[nan-cv1-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[nan-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv2-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[1000-cv1-scoring1-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[raise-cv2-scoring0-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv[1000-cv0-scoring1-forecaster0-param_grid0],aeon,['7494912669'],1
+aeon/forecasting/model_selection/tests/test_tune.py::test_rscv[1-cv1-nan-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/forecasting/tests/test_interval_wrappers.py::test_evaluate_with_window_splitters[None-refit-SlidingWindowSplitter-NaiveVariance],aeon,"['7494912669', '7495117058']",2
+aeon/forecasting/model_selection/tests/test_tune.py::test_gscv_hierarchical[raise-cv1-scoring0-forecaster1-param_grid1],aeon,['7494912669'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_does_not_raise[ExponentTransformer],aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_passed[ExponentTransformer],aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_does_not_raise[MockForecaster],aeon,['7504831075'],1
+aeon/performance_metrics/tests/test_metrics_classes.py::test_custom_metric[True],aeon,['7504831075'],1
+aeon/performance_metrics/tests/test_metrics_classes.py::test_custom_metric[False],aeon,['7504831075'],1
+aeon/utils/estimator_checks.py::aeon.utils.estimator_checks.check_estimator,aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_passed[DummyClassifier],aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_subset_tests,aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_passed[MockForecaster],aeon,['7504831075'],1
+aeon/utils/tests/test_check_estimator.py::test_check_estimator_does_not_raise[DummyClassifier],aeon,['7504831075'],1
+aeon/transformations/compose.py::aeon.transformations.compose.FitInTransform,aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-False-wls_str],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[clusterer-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-False-bu],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-False-wls_str],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[False-capability:pred_var],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id17-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-True-td_fcst],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[early_classifier-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-True-ols],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[transformer-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/_lookup.py::aeon.registry._lookup.all_estimators,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[False-X-y-must-have-same-index],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id25-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags_bad_arg[return_tags1],aeon,"['7514148037', '7514531555']",2
+aeon/testing/mock_estimators/_mock_forecasters.py::aeon.testing.mock_estimators._mock_forecasters.MockUnivariateForecasterLogger,aeon,"['7514148037', '7514531555', '7515001364']",3
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[series-annotator-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-True-bu],aeon,"['7514148037', '7514531555']",2
+aeon/transformations/compose.py::aeon.transformations.compose.OptionalPassthrough,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[metric-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_names[True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_names[False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[True-skip-inverse-transform],aeon,"['7514148037', '7514531555']",2
+aeon/pipeline/_make_pipeline.py::aeon.pipeline._make_pipeline.make_pipeline,aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/base/tests/test_base.py::test_predict_residuals,aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-True-td_fcst],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[None-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id21-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id23-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id16-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id18-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-False-ols],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[network-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_exclude_estimators[NaiveForecaster],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[True-X-y-must-have-same-index],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id15-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id22-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id23-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-True-bu],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_list_tag_lookup,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_exclude_estimators[exclude_estimators1],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[classifier-False],aeon,"['7514148037', '7514531555']",2
+aeon/transformations/tests/test_differencer.py::test_differencer_inverse_does_not_memorize,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[regressor-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/squaring_residuals.py::aeon.forecasting.squaring_residuals.SquaringResiduals,aeon,"['7514148037', '7514531555']",2
+aeon/testing/mock_estimators/_mock_forecasters.py::aeon.testing.mock_estimators._mock_forecasters.make_mock_estimator,aeon,"['7514148037', '7514531555', '7515001364']",3
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-False-bu],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id27-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_exclude_type,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[collection-transformer-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id22-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id20-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[clusterer-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[metric-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator-True],aeon,"['7514148037', '7514531555']",2
+aeon/transformations/scaledlogit.py::aeon.transformations.scaledlogit.ScaledLogitTransformer,aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-False-ols],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[object-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id26-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id28-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[series-annotator-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id20-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id26-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[similarity-search-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-False-td_fcst],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id15-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id21-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id19-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[None-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[regressor-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[forecaster-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id19-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-True-wls_str],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[3-False-td_fcst],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[object-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[classifier-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[network-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[splitter-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[similarity-search-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/base/tests/test_base.py::test_dynamic_tags_reset_properly,aeon,"['7514148037', '7514531555']",2
+aeon/testing/mock_estimators/_mock_forecasters.py::aeon.testing.mock_estimators._mock_forecasters.MockForecaster,aeon,"['7514148037', '7514531555', '7515001364']",3
+aeon/transformations/summarize.py::aeon.transformations.summarize.WindowSummarizer,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[splitter-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id24-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[True-capability:pred_var],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-True-ols],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id25-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id28-False],aeon,"['7514148037', '7514531555']",2
+aeon/transformations/detrend/tests/test_deseasonalise.py::test_deseasonalizer_in_pipeline,aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id24-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[early_classifier-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[False-return_tags3],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[forecaster-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags_bad_arg[12],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id17-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[False-skip-inverse-transform],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id16-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[collection-transformer-True],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id27-True],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/tests/test_reconcile.py::test_reconciler_fit_predict[1-True-wls_str],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[estimator_id18-False],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_return_tags[True-return_tags3],aeon,"['7514148037', '7514531555']",2
+aeon/registry/tests/test_lookup.py::test_all_estimators_by_identifier[transformer-False],aeon,"['7514148037', '7514531555']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-update-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-update-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-refit-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-refit-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-refit-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-refit-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-update-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-update-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-update-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-refit-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-refit-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-refit-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-refit-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-refit-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-refit-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-update-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-update-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-refit-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-update-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-update-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-refit-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-update-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-update-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-update-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[threading-update-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-refit-False-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-refit-False-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[None-update-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-refit-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-refit-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[loky-update-True-1000],aeon,"['7514528478', '7518299923']",2
+aeon/forecasting/model_evaluation/tests/test_evaluate.py::test_evaluate_error_score[dask-update-True-nan],aeon,"['7514528478', '7518299923']",2
+aeon/classification/tests/test_all_classifiers.py::TestAllClassifiers::test_classifier_output[MockClassifierPredictProba-ClassifierFitPredict],aeon,"['7515001364', '7518453458']",2
+aeon/classification/tests/test_all_classifiers.py::TestAllClassifiers::test_classifier_output[MockClassifierFullTags-ClassifierFitPredict],aeon,"['7515001364', '7518453458']",2
+aeon/classification/tests/test_all_classifiers.py::TestAllClassifiers::test_classifier_output[MockClassifierFullTags-ClassifierFitPredictMultivariate],aeon,"['7515001364', '7518453458']",2
+aeon/classification/tests/test_all_classifiers.py::TestAllClassifiers::test_classifier_output[MockClassifierFullTags-ClassifierFitPredictUnequalLength],aeon,"['7515001364', '7518453458']",2
+aeon/performance_metrics/clustering.py::aeon.performance_metrics.clustering.clustering_accuracy_score,aeon,['7521877041'],1
+src/ansiblelint/rules/only_builtins.py::test_only_builtins_allow,ansible-lint,['7638058326'],1
+test/test_examples.py::test_vault_partial,ansible-lint,['7652199988'],1
+test/test_rules_collection.py::test_rules_id_format,ansible-lint,['7652199988'],1
+test/test_list_rules.py::test_list_rules_with_format_option[md],ansible-lint,['7652199988'],1
+src/ansiblelint/rules/args.py::test_args_module_pass,ansible-lint,['7652199988'],1
+src/ansiblelint/rules/galaxy.py::test_galaxy_rule[no-collection-version],ansible-lint,"['7657847152', '7664145925']",2
+src/ansiblelint/rules/galaxy.py::test_galaxy_rule[invalid-dependency-version],ansible-lint,"['7657847152', '7664145925']",2
+src/ansiblelint/rules/galaxy.py::test_galaxy_collection_version_negative,ansible-lint,"['7657847152', '7664145925']",2
+src/ansiblelint/rules/galaxy.py::test_galaxy_rule[tags],ansible-lint,"['7657847152', '7664145925']",2
+src/ansiblelint/rules/galaxy.py::test_galaxy_no_collection_version,ansible-lint,"['7657847152', '7664145925']",2
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[mongodb],apscheduler,"['8602856565', '8602861466', '9049539435']",3
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[aiosqlite-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncmy-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[memory-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[memory-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[psycopg_async-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[aiosqlite-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_sync-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[asyncmy-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_wait_until_stopped,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[aiosqlite-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_sync-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_implicit_cleanup,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_async-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[memory-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_configure_task,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_error,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[pymysql-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncpg-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_async-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncpg-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[aiosqlite-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[psycopg_async-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[asyncpg-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_async-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[psycopg_sync-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[memory-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[asyncmy-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_async_executor[False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[psycopg_sync-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_max_concurrent_jobs,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[mongodb-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_no_ready_yet,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[asyncpg-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_processpool_executor,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_threadpool_executor,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[mongodb-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[mongodb-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_properties,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[mongodb-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[psycopg_sync-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[memory-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[psycopg_async],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[aiosqlite-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[psycopg_async-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncmy-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[asyncmy-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_threadpool_executor[False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[asyncmy-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[memory-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[memory-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_use_without_contextmanager,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_add_job_wait_result,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[pymysql-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[psycopg_async-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[asyncpg],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[mongodb-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[asyncpg-True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_add_remove_schedule,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_processpool_executor,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_properties,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_empty[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[aiosqlite-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_explicit_cleanup,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_configure_task[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[psycopg_sync-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[pymysql-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncmy-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_pause_unpause_remove_schedule[mongodb],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_threadpool_executor[True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-job-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[memory],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[psycopg_sync-within],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-builtin_function],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_async_executor[True],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[asyncpg-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[mongodb-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup_avoid_schedules_still_having_jobs[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[mongodb-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-sync_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_get_result_success[psycopg_sync],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_async-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[pymysql-all],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_scheduled_job_missed_deadline[aiosqlite],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[psycopg_sync-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_wait_until_stopped,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[aiosqlite-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-async_classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[mongodb-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[aiosqlite-job-async_staticmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-async_func],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[pymysql-job-instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[pymysql-latest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_explicit_cleanup[pymysql],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_contextvars,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestSyncScheduler::test_run_until_stopped,apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-job-classmethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncpg-schedule-builtin_method],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_add_job_wait_result[asyncmy],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_jitter[pymysql-exceed],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-partial],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_run_job[asyncpg-False],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[asyncmy-schedule-async_instancemethod],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_coalesce_policy[pymysql-earliest],apscheduler,['9049539435'],1
+tests/test_schedulers.py::TestAsyncScheduler::test_callable_types[memory-schedule-async_staticmethod],apscheduler,['9049539435'],1
+tests/triggers/test_combining.py::TestAndTrigger::test_overlapping_triggers[left_kwargs3-right_kwargs3-start_time3-expected_datetimes3],apscheduler,['9085355210'],1
+tests/triggers/test_combining.py::TestAndTrigger::test_overlapping_triggers[left_kwargs2-right_kwargs2-start_time2-expected_datetimes2],apscheduler,['9085355210'],1
+tests/triggers/test_combining.py::TestAndTrigger::test_overlapping_triggers[left_kwargs4-right_kwargs4-start_time4-expected_datetimes4],apscheduler,['9085355210'],1
+tests/test_datastores.py::test_acquire_jobs_max_number_exceeded[mongodb],apscheduler,['10149890335'],1
+dask/dataframe/io/tests/test_parquet.py::test_roundtrip[pyarrow-df8-write_kwargs8-read_kwargs8],dask,['7391563423'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[disk-0-idxmax],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[tasks-index-idxmax],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[disk-index-idxmax],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[tasks-0-idxmin],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[tasks-0-idxmax],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[disk-0-idxmin],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-1-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-4-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[tasks-index-idxmin],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-None-None-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-None-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[disk-4-True-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-None-False-0],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-True-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_fillna[tasks-1-False-1],dask,['7395285084'],1
+dask/dataframe/tests/test_groupby.py::test_df_groupby_idx_axis[disk-index-idxmin],dask,['7395285084'],1
+dask/dataframe/tests/test_categorical.py::test_categorize,dask,['7408807376'],1
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-10-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-10-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-10-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_rolling.py::test_map_overlap[False-1],dask,"['7408807376', '7410080393']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0--1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-10-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0--1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1--1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-10-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_dataframe.py::test_repartition_object_index,dask,['7408807376'],1
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-10-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0--1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-10-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-10-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-10-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1--1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_rolling.py::test_map_overlap[False-4],dask,"['7408807376', '7410080393']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-10-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1--1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0--1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0--1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0--1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-0-1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1-1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1--1-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-1--1-2],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1-10-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[tasks-1--1-1],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_groupby.py::test_groupby_shift_basic_input[disk-0-10-5],dask,"['7408807376', '7426629611']",2
+dask/dataframe/tests/test_rolling.py::test_map_overlap[True-1],dask,['7410080393'],1
+dask/dataframe/tests/test_rolling.py::test_map_overlap[True-4],dask,['7410080393'],1
+dask/dataframe/tests/test_groupby.py::test_full_groupby_multilevel[tasks-True-<lambda>4],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_full_groupby_multilevel[disk-False-<lambda>4],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_full_groupby_multilevel[tasks-False-<lambda>4],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_apply_or_transform_shuffle_multilevel[tasks-<lambda>1-<lambda>5],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_apply_or_transform_shuffle_multilevel[disk-<lambda>1-<lambda>5],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_apply_or_transform_shuffle_multilevel[tasks-<lambda>0-<lambda>5],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_apply_or_transform_shuffle_multilevel[disk-<lambda>0-<lambda>5],dask,['7427845229'],1
+dask/dataframe/tests/test_groupby.py::test_full_groupby_multilevel[disk-True-<lambda>4],dask,['7427845229'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[False-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[True-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[True-True-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[None-False-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_across_axis1_null_results[None-False],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[True-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_across_axis1_null_results[False-False],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_across_axis1_null_results[False-True],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[True-True-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[True-False-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[True-False-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[None-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[None-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[None-True-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_across_axis1_null_results[None-True],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[None-True-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[False-False-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[False-False-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_creates_copy_cols[False-0],dask,['7445195472'],1
+dask/dataframe/tests/test_dataframe.py::test_view,dask,"['7445195472', '7463218750']",2
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[False-True-0],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[False-True-1],dask,['7445195472'],1
+dask/dataframe/tests/test_arithmetics_reduction.py::test_datetime_std_with_larger_dataset[None-False-1],dask,['7445195472'],1
+tests/func/test_import.py::test_pull_import_no_download,dvc,['7383363315'],1
+tests/func/test_import.py::test_pull_import_no_download_rev_lock,dvc,"['7383363315', '7634399499']",2
+tests/func/test_data_cloud.py::test_pull_partial,dvc,['7389433266'],1
+tests/func/test_virtual_directory.py::test_partial_checkout_and_update,dvc,['7389433266'],1
+tests/func/test_data_cloud.py::test_pull_partial_import_modified,dvc,"['7407328063', '7422709888']",2
+IPython/testing/tests/test_decorators.py::test_skip_dt_decorator,ipython,['7461730907'],1
+IPython/core/tests/test_profile.py::test_wierd,ipython,"['7527912524', '7527949834', '7528756918', '7528787453', '7528873505', '7528949484']",6
+tests/test_util.py::test_nnls_vector[float64-float32],librosa,"['7696042840', '7903433301', '8455805242']",3
+tests/test_util.py::test_nnls_vector[float32-float32],librosa,"['7696042840', '7903433301', '8455805242']",3
+tests/test_core.py::test_pyin_multi_center,librosa,"['11524460389', '11979000061']",2
+tests/test_core.py::test_yin_tone[880],librosa,['11524460389'],1
+tests/test_core.py::test_yin_chirp,librosa,['11524460389'],1
+tests/test_core.py::test_yin_fail[110-880-2049-2048],librosa,['11524460389'],1
+tests/test_core.py::test_pyin_fail[110-880-2049-2048],librosa,['11524460389'],1
+tests/test_multichannel.py::test_yin_multi[test1_44100.wav],librosa,['11524460389'],1
+tests/test_core.py::test_pyin_chirp,librosa,['11524460389'],1
+tests/test_core.py::test_pyin_multi,librosa,['11524460389'],1
+test/a_unit/dependency/ansible_galaxy/test_collections.py::test_collections_execute,molecule,['7658354727'],1
+test/a_unit/dependency/test_shell.py::test_shell_execute,molecule,['7658354727'],1
+test/a_unit/dependency/ansible_galaxy/test_roles.py::test_execute,molecule,['7658354727'],1
+test/a_unit/provisioner/test_ansible.py::test_get_filter_plugins_directories_default,molecule,['7885497080'],1
+test/a_unit/command/test_base.py::test_command_completion[foo],molecule,"['8246478956', '8246768503', '8247877557', '8663349342']",4
+test/b_functional/test_command.py::test_podman,molecule,"['8552656453', '8554184600']",2
+test/b_functional/test_command.py::test_command_list_with_format_plain[0],molecule,['9076379229'],1
+networkx/algorithms/traversal/tests/test_dfs.py::TestDFS::test_dfs_edges_sorting,networkx,"['7377036882', '7444395563']",2
+networkx/algorithms/traversal/tests/test_dfs.py::TestDFS::test_dfs_labeled_edges_sorting,networkx,"['7377036882', '7444395563']",2
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_multigraph_weighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_input_graph_with_two_roots,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcomponents.py::test_karate_component_number,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_is_minimal_d_separator_checks_dsep,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_is_minimal_d_separator,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_random_gnp,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_pairs_without_lca,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.dag_to_branching,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagToBranching::test_already_arborescence,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagToBranching::test_single_root,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_default_kwarg,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.is_directed_acyclic_graph,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_transitive_closure_dag,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_markov_condition[graph4],networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_one_pair_gh4942,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_nonexisting_pairs_exception,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_semiconnected.py::TestIsSemiconnected::test_alternating_path,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.antichains,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_topological_sort5,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcomponents.py::test_karate,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_transitive_reduction,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_bug_gh4942,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_multigraph_weighted_default_weight,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_markov_condition[graph2],networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::test_topological_generations,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_articulation_points,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_example_1,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.dag_longest_path,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.topological_sort,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_grid_2d_graph,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_issue_4574,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_non_repeated_cuts,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_shell,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_all_pairs_given,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPathLength::test_multigraph_weighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPathLength::test_weighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_gold_example,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_unweighted2,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_generator,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_topological_sort2,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_multigraph_unweighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagToBranching::test_multiple_roots,networkx,['7436543096'],1
+networkx/algorithms/d_separation.py::networkx.algorithms.d_separation,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_deprecations,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::test_all_pairs_lca_self_ancestors,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_configuration,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_karate,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_markov_condition[graph3],networkx,['7436543096'],1
+networkx/tests/test_relabel.py::TestRelabel::test_relabel_toposort,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_gold_example,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcomponents.py::test_configuration,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_generator,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_semiconnected.py::TestIsSemiconnected::test_dumbbell,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.dag_longest_path_length,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_cycle_graph,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPathLength::test_unweighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_all_pairs_given,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_default_kwarg,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcomponents.py::test_davis_southern_women_detail_3_and_4,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_markov_condition[graph0],networkx,['7436543096'],1
+networkx/algorithms/tree/tests/test_recognition.py::test_multicycle,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcutsets.py::test_all_node_cuts_simple_case,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_strongly_connected.py::TestStronglyConnected::test_contract_scc1,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_asia_graph_dsep,networkx,['7436543096'],1
+networkx/tests/test_convert_pandas.py::TestConvertPandas::test_roundtrip[Graph],networkx,['7436543096'],1
+networkx/algorithms/lowest_common_ancestors.py::networkx.algorithms.lowest_common_ancestors.lowest_common_ancestor,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_pairs_without_lca,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_topological_sort1,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_path_graph_dsep,networkx,['7436543096'],1
+networkx/algorithms/components/semiconnected.py::networkx.algorithms.components.semiconnected.is_semiconnected,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_unweighted1,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.pure_descendants,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_unorderable_nodes,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_antichains,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_collider_graph_dsep,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_issue_4574,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_fork_graph_dsep,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_markov_condition[graph1],networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_bug_gh4942,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestDAGLCA::test_all_pairs_lca_nonexisting_pairs_exception,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPathLength::test_multigraph_unweighted,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_is_directed_acyclic_graph,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_topological_sort6,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagLongestPath::test_weighted,networkx,['7436543096'],1
+networkx/algorithms/connectivity/kcomponents.py::networkx.algorithms.connectivity.kcomponents.k_components,networkx,['7436543096'],1
+networkx/algorithms/connectivity/tests/test_kcomponents.py::test_davis_southern_women,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_input_graph_with_two_roots,networkx,['7436543096'],1
+networkx/algorithms/tests/test_lowest_common_ancestors.py::TestMultiDiGraph_DAGLCA::test_all_pairs_lca_one_pair_gh4942,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_invalid_nodes_raise_error,networkx,['7436543096'],1
+networkx/algorithms/d_separation.py::networkx.algorithms.d_separation.is_minimal_d_separator,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_semiconnected.py::TestIsSemiconnected::test_tree,networkx,['7436543096'],1
+networkx/algorithms/tree/tests/test_recognition.py::test_dag_nontree,networkx,['7436543096'],1
+networkx/algorithms/lowest_common_ancestors.py::networkx.algorithms.lowest_common_ancestors.all_pairs_lowest_common_ancestor,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_naive_bayes_dsep,networkx,['7436543096'],1
+networkx/algorithms/tests/test_d_separation.py::test_nondisjoint_node_sets_raise_error,networkx,['7436543096'],1
+networkx/algorithms/connectivity/kcutsets.py::networkx.algorithms.connectivity.kcutsets.all_node_cuts,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.transitive_closure_dag,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.topological_generations,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_semiconnected.py::TestIsSemiconnected::test_cycle,networkx,['7436543096'],1
+networkx/algorithms/dag.py::networkx.algorithms.dag.transitive_reduction,networkx,['7436543096'],1
+networkx/tests/test_convert_pandas.py::TestConvertPandas::test_roundtrip[MultiGraph],networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDagToBranching::test_already_branching,networkx,['7436543096'],1
+networkx/algorithms/components/tests/test_semiconnected.py::TestIsSemiconnected::test_path,networkx,['7436543096'],1
+networkx/algorithms/tests/test_dag.py::TestDAG::test_topological_sort3,networkx,['7436543096'],1
+networkx/algorithms/traversal/tests/test_dfs.py::TestDepthLimitedSearch::test_dls_successor,networkx,['7444395563'],1
+networkx/algorithms/traversal/tests/test_dfs.py::TestDFS::test_successor,networkx,['7444395563'],1
+networkx/algorithms/traversal/depth_first_search.py::networkx.algorithms.traversal.depth_first_search.dfs_successors,networkx,['7444395563'],1
+networkx/algorithms/approximation/tests/test_broadcasting.py::test_binomial_tree_broadcast,networkx,['7550605665'],1
+networkx/algorithms/approximation/tests/test_broadcasting.py::test_star_broadcast,networkx,['7550605665'],1
+networkx/algorithms/approximation/tests/test_broadcasting.py::test_path_broadcast,networkx,['7550605665'],1
+networkx/algorithms/approximation/tests/test_broadcasting.py::test_example_tree_broadcast,networkx,['7550605665'],1
+networkx/algorithms/approximation/tests/test_broadcasting.py::test_empty_graph_broadcast,networkx,['7550605665'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRank::test_multigraph[pagerank],networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRankScipy::test_scipy_pagerank,networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRankScipy::test_dangling_scipy_pagerank,networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRankScipy::test_multigraph[pagerank],networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRank::test_pagerank[pagerank],networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRankScipy::test_pagerank[pagerank],networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRankScipy::test_dangling_pagerank[pagerank],networkx,['7561273644'],1
+networkx/algorithms/link_analysis/tests/test_pagerank.py::TestPageRank::test_dangling_pagerank[pagerank],networkx,['7561273644'],1
+networkx/algorithms/operators/tests/test_product.py::test_modular_product_raises,networkx,['7589352797'],1
+tests/test_django_settings_module.py::test_settings_in_hook,pytest-django,['7697540790'],1
+tests/test_db_setup.py::test_db_reuse,pytest-django,"['7848137525', '7848209716']",2
+tests/test_db_setup.py::TestSqlite::test_sqlite_test_name_used,pytest-django,"['7848137525', '7848209716']",2
+tests/test_db_setup.py::TestSqliteWithTox::test_db_with_empty_tox_suffix,pytest-django,['7848137525'],1
+tests/test_db_setup.py::TestSqliteWithTox::test_db_with_tox_suffix,pytest-django,['7848137525'],1
+tests/test_django_settings_module.py::test_django_debug_mode_keep[True],pytest-django,['10662962267'],1
+tests/test_django_settings_module.py::test_django_debug_mode_keep[False],pytest-django,['10662962267'],1
+tests/test_manage_py_scan.py::test_django_project_late_settings_version,pytest-django,['11085746619'],1
+tests/test_django_settings_module.py::test_no_django_settings_but_django_imported,pytest-django,['11085746619'],1
+tests/test_manage_py_scan.py::test_django_project_found_invalid_settings_version,pytest-django,['11085746619'],1
+tests/test_without_django_loaded.py::test_live_server,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_urls_mark,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_no_ds,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_settings,pytest-django,['11086013545'],1
+tests/test_django_settings_module.py::test_no_ds_but_django_conf_imported,pytest-django,['11086013545'],1
+tests/test_django_settings_module.py::test_django_not_loaded_without_settings,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_database,pytest-django,['11086013545'],1
+tests/test_django_settings_module.py::test_ds_in_pytest_configure,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_client,pytest-django,['11086013545'],1
+tests/test_without_django_loaded.py::test_rf,pytest-django,['11086013545'],1
+tests/test_django_settings_module.py::test_no_ds_but_django_imported,pytest-django,['11086013545'],1
+testing/acceptance_test.py::TestDistribution::test_exitfail_waits_for_workers_to_finish,pytest-xdist,['8025868061'],1
+testing/acceptance_test.py::TestGroupScope::test_by_module,pytest-xdist,['10491602671'],1
+testing/acceptance_test.py::TestGroupScope::test_by_class,pytest-xdist,['10491602671'],1
+testing/acceptance_test.py::TestGroupScope::test_module_single_start,pytest-xdist,['10491602671'],1
+testing/acceptance_test.py::TestIsoScope::test_by_module,pytest-xdist,['11488010466'],1
+testing/acceptance_test.py::TestIsoScope::test_by_class,pytest-xdist,['11488010466'],1
+testing/acceptance_test.py::TestIsoScope::test_module_single_start,pytest-xdist,['11488010466'],1
+testing/acceptance_test.py::TestIsoScope::test_single_scope_subset_of_workers_utilized[3],pytest-xdist,"['11489204855', '11489318690']",2
+testing/acceptance_test.py::TestIsoScope::test_single_scope_subset_of_workers_utilized[1],pytest-xdist,"['11489204855', '11489318690']",2
+testing/acceptance_test.py::TestIsoScope::test_single_scope_subset_of_workers_utilized[2],pytest-xdist,"['11489204855', '11489318690']",2
+testing/acceptance_test.py::TestIsoScope::test_multi_scope_with_insufficient_fence,pytest-xdist,"['11504045765', '11504193929', '11504268570']",3
+testing/acceptance_test.py::TestIsoScope::test_distributed_setup_teardown_coordination,pytest-xdist,"['11523561014', '11523606002', '11523749586', '11523810965', '11524919902', '11525010687', '11525181941', '11525270367', '11525350490']",9
+tests/tests_pytorch/models/test_tpu.py::test_exception_when_no_tpu_found,pytorch-lightning,['7388565910'],1
+tests/tests_pytorch/utilities/test_seed.py::test_isolate_rng_cuda,pytorch-lightning,['7403378857'],1
+tests/tests_pytorch/test_cli.py::test_lightning_cli_config_and_subclass_mode,pytorch-lightning,['7479381560'],1
+tests/tests_pytorch/test_cli.py::test_lightning_cli_print_config,pytorch-lightning,['7479381560'],1
+tests/tests_pytorch/test_cli.py::test_lightning_cli_args,pytorch-lightning,['7479381560'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_logger_download_artifact[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_log_media[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_logger_init[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_pickle[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_log_model_with_score[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_logger_dirs_creation[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_project_name[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_logger_offline_log_model[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_log_model[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/loggers/test_wandb.py::test_wandb_logger_init_before_spawn[fabric],pytorch-lightning,['7490798138'],1
+tests/tests_pytorch/checkpointing/test_model_checkpoint.py::test_checkpointing_with_nan_as_first[min],pytorch-lightning,['7647716898'],1
+tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[1.0-train_datasets1-val_datasets1],pytorch-lightning,['7647716898'],1
+tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[0.5-train_datasets1-val_datasets1],pytorch-lightning,['7647716898'],1
+tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[1.0-train_datasets0-val_datasets0],pytorch-lightning,['7647716898'],1
+tests/tests_pytorch/checkpointing/test_model_checkpoint.py::test_checkpointing_with_nan_as_first[max],pytorch-lightning,['7647716898'],1
+tests/tests_pytorch/loops/test_loops.py::test_fit_can_fail_during_validation[0.5-train_datasets0-val_datasets0],pytorch-lightning,['7647716898'],1
+tests/_core/test_plot.py::TestInit::test_positional_interchangeable_dataframe,seaborn,"['11758212698', '11758226041']",2
+tests/test_export.py::ExportTest::test_export,trimesh,"['7430287465', '7720545981']",2
+tests/test_gltf.py::GLTFTest::test_vertex_attrib,trimesh,['7430287465'],1
+tests/test_gltf.py::GLTFTest::test_equal_by_default,trimesh,['7430287465'],1
+tests/test_texture.py::TextureTest::test_fuze,trimesh,['7430287465'],1
+tests/test_texture.py::TextureTest::test_order_kwarg,trimesh,['7430287465'],1
+tests/test_obj.py::OBJTest::test_export_path,trimesh,['7430287465'],1
+tests/test_texture.py::TextureTest::test_bad_uv,trimesh,['7430287465'],1
+tests/test_obj.py::OBJTest::test_no_img,trimesh,['7430287465'],1
+tests/test_visual.py::VisualTest::test_face_subset_texture_visuals,trimesh,"['7430287465', '7897050186']",2
+tests/test_obj.py::OBJTest::test_skip_mtl,trimesh,['7430287465'],1
+tests/test_remesh.py::SubDivideTest::test_uv,trimesh,['7430287465'],1
+tests/test_visual.py::VisualTest::test_face_maintain_order,trimesh,['7430287465'],1
+tests/test_gltf.py::GLTFTest::test_material_hash,trimesh,['7430287465'],1
+tests/test_sample.py::SampleTest::test_color,trimesh,['7430287465'],1
+tests/test_points.py::PointsTest::test_pointcloud,trimesh,['7443361288'],1
+tests/test_obj.py::OBJTest::test_obj_negative_indices,trimesh,['7455977473'],1
+tests/test_repair.py::RepairTests::test_fill_holes,trimesh,['7455977473'],1
+tests/test_stl.py::STLTests::test_ascii_multibody,trimesh,['7594334738'],1
+tests/test_gltf.py::GLTFTest::test_postprocess,trimesh,['7659705387'],1
+tests/test_ply.py::PlyTest::test_ascii_color,trimesh,['7717513309'],1
+tests/test_smooth.py::SmoothTest::test_smooth,trimesh,['7897050186'],1
+tests/test_urdf.py::URDFTest::test_export,trimesh,"['8055494463', '8055631927', '8055672474']",3
+tests/test_dxf.py::DXFTest::test_dxf,trimesh,"['8116775667', '8116800720']",2
+tests/test_paths.py::SplitTest::test_split,trimesh,"['8116775667', '8116800720']",2
+tests/test_paths.py::VectorTests::test_discrete,trimesh,"['8116775667', '8116800720']",2
+tests/test_paths.py::VectorTests::test_dangling,trimesh,"['8116775667', '8116800720']",2
+tests/test_python.py::test_nn_modules_conv,ultralytics,"['7385549170', '7385549193', '7385552312', '7385930222']",4
+tests/test_python.py::test_track_stream,ultralytics,"['7396569414', '7396577146', '7417191627']",3
+tests/test_cli.py::test_val[pose-yolov8n-pose-coco8-pose.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_val[detect-yolov8n-coco8.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_fastsam,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_train[pose-yolov8n-pose-coco8-pose.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_train[segment-yolov8n-seg-coco8-seg.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_python.py::test_val,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_python.py::test_workflow,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_python.py::test_train_scratch,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_rtdetr,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_python.py::test_data_utils,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_train[detect-yolov8n-coco8.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_cli.py::test_val[segment-yolov8n-seg-coco8-seg.yaml],ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_python.py::test_train_pretrained,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_engine.py::test_detect,ultralytics,"['7402197055', '7402200039', '7417191386']",3
+tests/test_engine.py::test_segment,ultralytics,"['7402197055', '7402200039', '7417191386']",3
