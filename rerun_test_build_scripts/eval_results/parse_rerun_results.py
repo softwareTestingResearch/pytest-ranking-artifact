@@ -19,8 +19,10 @@ sys.path.append(local_dir)
 import local_const
 import local_utils
 
-PARSED_RERUN_DIR = "parsed_rerun_results"
-
+ARGS = sys.argv
+RAW_RERUN_DIR = ARGS[-2]
+PARSED_RERUN_DIR = f"parsed_{RAW_RERUN_DIR.split('/')[-1]}"
+CI_WORKFLOW_NAMES = local_const.CI_WORKFLOW_NAMES if ARGS[-1] == "default" else [f"{ARGS[-1]}_{i}" for i in range(1, 11)]
 
 def get_duration(test: dict) -> int:
     ret = 0
@@ -91,9 +93,9 @@ def parse_rerun_dataset():
         run_id = row["run_id"]
         run_started_at = row["run_started_at"]
         run_conclusion = row["run_conclusion"]
-        for order in local_const.CI_WORKFLOW_NAMES:
+        for order in CI_WORKFLOW_NAMES:
             rerun_folder = os.path.join(
-                local_const.RERUN_DIR, project, local_const.WORKFLOWRUN_DIR, str(int(run_id))
+                RAW_RERUN_DIR, project, local_const.WORKFLOWRUN_DIR, str(int(run_id))
             )
             if os.path.exists(rerun_folder):
                 # Check rerun metadata.
@@ -114,6 +116,7 @@ def parse_rerun_dataset():
                 new_row["rerun_html"] = rerun_html
                 df.append(new_row)
     df = pd.DataFrame(df)
+    df["rerun_html"] = df.pop("rerun_html")
     df.to_csv(os.path.join(PARSED_RERUN_DIR, "rerun_metadata.csv"), index=False)
 
 
