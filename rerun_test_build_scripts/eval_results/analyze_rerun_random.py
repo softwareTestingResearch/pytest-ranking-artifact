@@ -77,9 +77,10 @@ def compute_rtp_metrics():
                 name, outcome, duration = t["test"], t["outcome"], t["duration"]
                 if outcome in ["passed", "failed", "xpassed", "xfailed"]:
                     label_outcome = outcome
-                    # Label non-real failure as passed test
-                    if outcome == "failed" and name not in real_failures[project]:
-                        label_outcome = "passed"
+                    # Consider non-real failures as passing tests.
+                    if outcome == "failed":
+                        if name not in real_failures[project] or run_id not in real_failures[project][name]:
+                            label_outcome = "passed"
                     test = metrics.Test(name, label_outcome, duration)
                     tests.append(test)
             # If there is no real failure, skip this build
